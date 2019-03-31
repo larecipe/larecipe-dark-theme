@@ -89,22 +89,3 @@ table tr:hover td:hover th:hover {
     border: none;
     background-color: var(--sidebar);
 }
-
-
-> ul {
-    > li {
-        > h2 {
-            @apply text-grey;
-        }
-
-        > ul {
-            @apply list-reset;
-
-            > li {
-                a {
-                    @apply text-grey-dark;
-                }
-            }
-        }
-    }
-}
