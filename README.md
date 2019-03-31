@@ -21,7 +21,9 @@
 
 Install the package via composer.
 
-    composer require binarytorch/larecipe-dark-theme
+```bash
+composer require binarytorch/larecipe-dark-theme
+```
 
 That's it!
 
