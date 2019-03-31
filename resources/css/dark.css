@@ -1,0 +1,110 @@
+/**************************************/
+/**************** Root ****************/
+/**************************************/
+:root {
+    --sidebar: #11152C;
+    --documentation: #191E38;
+    --navbar: rgb(28, 35, 68);
+    --search: rgb(40, 47, 82);
+}
+
+html, body {
+    color: #F8FAFC;
+    background-color: var(--documentation);
+}
+
+/**************************************/
+/**************** Cards ***************/
+/**************************************/
+.card.is-default {
+    background-color: #2F365F;
+    color: #F8FAFC;
+    border: none;
+}
+
+/**************************************/
+/********** Documentation *************/
+/**************************************/
+.documentation {
+    color: #B8C2CC;
+}
+
+.documentation h1 {
+    color: #F8FAFC;
+}
+
+.documentation h2 a, a:hover {
+    color: #DAE1E7;
+}
+
+.documentation a {
+    color: #3490DC;
+}
+
+/**************************************/
+/************** Tables ****************/
+/**************************************/
+table {
+    background-color: #F1F5F8;
+    color: #1C3D5A;
+}
+
+table tr, td, th {
+    border: 1px solid #3D4852;
+}
+
+table tr:hover td:hover th:hover {
+    background-color: #3D4852;
+}
+
+/**************************************/
+/*************** Search ***************/
+/**************************************/
+.search-box {
+    border: none;
+}
+
+.search-box input input:focus {
+    background: var(--search);
+    color: var(--white);
+}
+
+.search-box input:focus {
+    background: var(--search);
+    color: var(--white);
+}
+
+.internal-autocomplete-result {
+    background: var(--search);
+}
+
+.internal-autocomplete-result ul li .page-title {
+    color: var(--white);
+}
+
+/**************************************/
+/*************** Sidebar **************/
+/**************************************/
+.sidebar {
+    border: none;
+    background-color: var(--sidebar);
+}
+
+
+> ul {
+    > li {
+        > h2 {
+            @apply text-grey;
+        }
+
+        > ul {
+            @apply list-reset;
+
+            > li {
+                a {
+                    @apply text-grey-dark;
+                }
+            }
+        }
+    }
+}
