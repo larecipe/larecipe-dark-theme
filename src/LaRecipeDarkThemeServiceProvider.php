@@ -14,6 +14,6 @@ class LaRecipeDarkThemeServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // LaRecipe::style('LaRecipeDarkTheme', __DIR__.'/../resources/css/dark.css');
+        LaRecipe::style('LaRecipeDarkTheme', __DIR__.'/../resources/css/dark.css');
     }
 }
