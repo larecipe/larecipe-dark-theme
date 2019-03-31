@@ -17,6 +17,16 @@
 
 ![LaRecipe Screenshot](https://larecipe.binarytorch.com.my/images/packages/dark-theme.png)
 
+## Getting Started
+
+Install the package via composer.
+
+    composer require binarytorch/larecipe-dark-theme
+
+That's it!
+
+#### See [full documentation](https://larecipe.binarytorch.com.my/)
+
 ## License
 
 This library is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
