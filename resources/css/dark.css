@@ -13,6 +13,10 @@ html, body {
     background-color: var(--documentation);
 }
 
+.medium-zoom-overlay {
+    background-color: var(--documentation);
+}
+
 /**************************************/
 /**************** Cards ***************/
 /**************************************/
