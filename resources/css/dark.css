@@ -49,16 +49,17 @@ html, body {
 /************** Tables ****************/
 /**************************************/
 table {
-    background-color: #F1F5F8;
-    color: #1C3D5A;
+  background-color: #11152D;
+  color: #F8FAFC;
 }
 
-table tr, td, th {
-    border: 1px solid #3D4852;
+table tr, table td, table th {
+  border-width: 1px;
+  border-color: #272e56;
 }
 
-table tr:hover td:hover th:hover {
-    background-color: #3D4852;
+table tr:hover, table td:hover, table th:hover {
+  background-color: #1D2244;
 }
 
 /**************************************/
