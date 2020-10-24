@@ -94,3 +94,10 @@ table tr:hover, table td:hover, table th:hover {
     border: none;
     background-color: var(--sidebar);
 }
+
+/**************************************/
+/*************** Switch **************/
+/**************************************/
+.switch-label {
+    border-color: var(--navbar);
+}
