@@ -1,5 +1,5 @@
 <h6 align="center">
-    <img src="https://larecipe.binarytorch.com.my/images/logo.svg"/>
+    <img src="https://larecipe.saleem.dev/images/logo.svg"/>
 </h6>
 
 <h2 align="center">
@@ -15,7 +15,7 @@
 
 **LaRecipe** is simply a code-driven package provides an easy way to create beautiful documentation for your product or application inside your Laravel app.
 
-![LaRecipe Screenshot](https://larecipe.binarytorch.com.my/images/packages/dark-theme.png)
+![LaRecipe Screenshot](https://larecipe..saleem.dev/images/packages/dark-theme.png)
 
 ## Getting Started
 
@@ -27,7 +27,7 @@ composer require binarytorch/larecipe-dark-theme
 
 That's it!
 
-#### See [full documentation](https://larecipe.binarytorch.com.my/)
+#### See [full documentation](https://larecipe..saleem.dev/)
 
 ## License
 
